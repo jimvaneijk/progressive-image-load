@@ -11,6 +11,13 @@
     "image",
     "load"
   ],
+  "bugs": {
+    "url": "https://github.com/jimvaneijk/progressive-image-load/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimvaneijk/progressive-image-load.git"
+  },
   "author": "Jim van Eijk",
   "license": "ISC"
 }
