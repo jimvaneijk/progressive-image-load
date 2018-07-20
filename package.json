@@ -1,0 +1,16 @@
+{
+  "name": "progressive-image-load",
+  "version": "1.0.0",
+  "description": "Medium style image load. From blur to normal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "progressive",
+    "image",
+    "load"
+  ],
+  "author": "Jim van Eijk",
+  "license": "ISC"
+}
