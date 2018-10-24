@@ -19,4 +19,4 @@ exports.blurImageLoad = function() {
     blurImageLoad.appendChild(imgLarge);
 };
 
-module.exports = window.onload = blurImageLoad;
+module.exports = blurImageLoad;
