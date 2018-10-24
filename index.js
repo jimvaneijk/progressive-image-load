@@ -1,4 +1,5 @@
 import ProgressiveImageLoad from './src/ProgressiveImageLoad';
 
-ProgressiveImageLoad.init();
+module.exports = ProgressiveImageLoad.init();
+
 
