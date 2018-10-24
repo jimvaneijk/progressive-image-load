@@ -5,9 +5,10 @@
 ![GitHub](https://img.shields.io/github/license/jimvaneijk/progressive-image-load.svg)
 ![GitHub](https://img.shields.io/badge/dutch%20made-100%25-orange.svg)
 
+<img src="example.gif">
 
 
-`npm install progressive-image-load`
+`npm i progressive-image-load --save`
 
 #### JS
 
@@ -15,15 +16,24 @@
 ```
 import ProgressiveImageLoad from 'progressive-image-load';
 
-ProgressiveImageLoad();
+window.onload = ProgressiveImageLoad();
 ```
 
 * HTML
 ```
 <script>
-    ProgressiveImageLoad();
+    const ProgressiveImageLoad = require('progressive-image-load');
+    window.onload = ProgressiveImageLoad();
 </script>
 ```
+
+#### CSS
+
+* Import scss
+```
+@import '~/progressive-image-load/scss/progressiveimageload';
+```
+
 
 #### HTML
 
@@ -33,5 +43,3 @@ ProgressiveImageLoad();
     <div style="padding-bottom:66,7%"></div>
 </section>
 ```
-
-<img src="example.gif">
