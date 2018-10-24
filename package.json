@@ -1,10 +1,10 @@
 {
   "name": "progressive-image-load",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Medium style image load. From blur to normal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm"
   },
   "keywords": [
     "progressive",
@@ -19,5 +19,15 @@
     "url": "https://github.com/jimvaneijk/progressive-image-load.git"
   },
   "author": "Jim van Eijk",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "files": [
+    "scss",
+    "src",
+    "index.js",
+    "README.md"
+  ]
 }
