@@ -1,6 +1,6 @@
 {
   "name": "progressive-image-load",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Medium style image load. From blur to normal",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-exports.blurImageLoad = function() {
+function blurImageLoad() {
     const blurImageLoad = document.querySelector('.blur-image-load');
     const small = blurImageLoad.querySelector('.blur-image');
 
